@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Portfolio | Duong Chi Minh</title>
+    <meta
+      name="description"
+      content="Digital Portfolio của Dương Chí Minh - tổng hợp bài tập môn Nhập môn Công nghệ số và Ứng dụng AI."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient-layer" aria-hidden="true">
+      <span class="ambient-shard shard-one"></span>
+      <span class="ambient-shard shard-two"></span>
+      <span class="ambient-shard shard-three"></span>
+    </div>
+    <div class="petal-layer" aria-hidden="true">
+      <img class="lilac-sprig lilac-sprig-one" src="assets/visuals/lilac-syringa-sprig.png" alt="" />
+      <span class="petal petal-one"></span>
+      <span class="petal petal-two"></span>
+      <span class="petal petal-three"></span>
+      <span class="petal petal-four"></span>
+      <span class="petal petal-five"></span>
+      <span class="petal petal-six"></span>
+      <span class="petal petal-seven"></span>
+      <span class="petal petal-eight"></span>
+      <span class="petal petal-nine"></span>
+      <span class="petal petal-ten"></span>
+      <span class="petal petal-eleven"></span>
+      <span class="petal petal-twelve"></span>
+    </div>
+    <audio id="portfolio-audio" loop preload="none" src="assets/audio/portfolio-music.mp3"></audio>
+    <button class="music-toggle" id="music-toggle" type="button" aria-pressed="false" title="Add assets/audio/portfolio-music.mp3">
+      <span class="music-icon" aria-hidden="true"></span>
+      <span class="music-label">Add music</span>
+    </button>
+    <header class="site-header" data-section-observer>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Mở menu</span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+        <a href="#intro">Giới thiệu</a>
+        <a href="#projects">Dự án</a>
+        <a href="#documents">Tài liệu đầy đủ</a>
+        <a href="#summary">Tổng kết</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-band reveal" id="intro">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio kỹ thuật số</p>
+          <h1>Dương Chí Minh</h1>
+          <p class="hero-lede">
+            Hồ sơ tổng hợp các bài tập môn Nhập môn Công nghệ số và Ứng dụng AI, thể hiện quá trình học tập và rèn luyện các kỹ năng trong thời đại công nghệ số.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Xem dự án</a>
+            <a class="button ghost" href="#documents">Đọc tài liệu đầy đủ</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="Thông tin sinh viên">
+          <div class="profile-photo">
+            <img src="assets/profile.jpg" alt="Ảnh chân dung Dương Chí Minh" />
+            <span class="profile-fallback" aria-hidden="true">DCM</span>
+          </div>
+          <div>
+            <p class="profile-label">Sinh viên</p>
+            <h2>Dương Chí Minh</h2>
+          </div>
+          <dl class="profile-grid">
+            <div>
+              <dt>MSSV</dt>
+              <dd>25022937</dd>
+            </div>
+            <div>
+              <dt>Lớp</dt>
+              <dd>K70A-AI2</dd>
+            </div>
+            <div>
+              <dt>Ngành</dt>
+              <dd>Trí tuệ nhân tạo</dd>
+            </div>
+            <div>
+              <dt>Trạng thái</dt>
+              <dd>Đã học xong ☕</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section-band reveal" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Mục tiêu học tập</h2>
+        </div>
+        <div class="about-grid">
+          <article>
+            <h3>Định hướng cá nhân</h3>
+            <p>
+              Portfolio này được xây dựng để lưu trữ sản phẩm học tập, trình bày minh chứng
+              và thể hiện quá trình học tập môn Nhập môn Công nghệ số và Ứng dụng AI.
+            </p>
+            <p class="edit-note">Trong tương lai, có thể dựa vào Portfolio này để mở rộng hồ sơ cá nhân.</p>
+          </article>
+          <article>
+            <h3>Kỹ năng trọng tâm</h3>
+            <ul class="chip-list">
+              <li>Tổ chức dữ liệu</li>
+              <li>Tìm kiếm học thuật</li>
+              <li>Prompt engineering</li>
+              <li>Cộng tác trực tuyến</li>
+              <li>Sáng tạo với AI</li>
+              <li>AI có trách nhiệm</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Nguyên tắc trình bày</h3>
+            <p>
+              Mỗi bài tập có mục tiêu, công cụ, quy trình, minh chứng, sản phẩm cuối và phần
+              phản tư. Nội dung đầy đủ của tài liệu gốc được hiển thị ngay trong trang.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-band reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>6 bài tập thành phần</h2>
+          <p>
+            Các thẻ bên dưới tóm tắt từng bài. Phần tài liệu đầy đủ nằm ngay dưới mỗi bài để
+            có thể đọc trực tiếp mà không cần tải file.
+          </p>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+        <div class="project-details" id="project-details"></div>
+      </section>
+
+      <section class="section-band reveal" id="documents">
+        <div class="section-heading">
+          <p class="eyebrow">Full Documents</p>
+          <h2>Tài liệu đầy đủ</h2>
+          <p>
+            Khu vực này gom lại toàn bộ tài liệu gốc đã được nhúng vào portfolio. DOCX được
+            chuyển thành HTML dễ đọc, PDF giữ nguyên bố cục trong trình xem.
+          </p>
+        </div>
+        <div class="document-library" id="document-library"></div>
+      </section>
+
+      <section class="section-band reveal" id="summary">
+        <div class="section-heading">
+          <p class="eyebrow">Reflection</p>
+          <h2>Tổng kết</h2>
+        </div>
+        <div class="summary-grid">
+          <article class="summary-card">
+            <h3>Điều đã học</h3>
+            <p>
+              Đây là một dự án thú vị, giúp mình học được cách làm Portfolio bằng web, đồng thời rèn luyện kỹ năng tổng hợp và tổ chức thông tin.
+            </p>
+          </article>
+          <article class="summary-card">
+            <h3>Khó khăn</h3>
+            <p>
+              Làm quen với các công cụ mới, và phải thiết kế cấu trúc trang web sao cho trải nghiệm người dùng được tối đa hóa.
+            </p>
+          </article>
+          <article class="summary-card">
+            <h3>Hướng mở rộng</h3>
+            <p>
+              Dựa vào khung của web, có thể phát triển và mở rộng thêm các tính năng hay ho khác, cũng như cải thiện giao diện người dùng.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Dương Chí Minh · 25022937 · K70A-AI2 · Artificial Intelligence</p>
+    </footer>
+
+    <script src="documents-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
