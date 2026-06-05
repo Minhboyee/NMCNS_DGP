@@ -560,8 +560,14 @@ function setupMusicControl() {
   setState("paused");
 }
 
+function keepProjectsVisible() {
+  qs("#projects")?.classList.add("is-visible");
+  qsa("#projects .reveal").forEach((item) => item.classList.add("is-visible"));
+}
+
 renderProjectCards();
 renderProjectDetails();
+keepProjectsVisible();
 renderDocumentLibrary();
 setupNavigation();
 setupProfileFallback();

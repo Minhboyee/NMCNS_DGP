@@ -1331,6 +1331,13 @@ th {
   transform: translateY(0);
 }
 
+#projects,
+#projects.reveal,
+#projects .reveal {
+  opacity: 1;
+  transform: none;
+}
+
 @keyframes mineral-shimmer {
   0% {
     background-position: 0 0, 0 0;
@@ -1682,4 +1689,3 @@ th {
     transition-duration: 1ms !important;
   }
 }
-
