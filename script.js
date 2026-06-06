@@ -74,19 +74,19 @@ const projects = [
     number: "04",
     icon: "network",
     title: "Hợp tác trực tuyến",
-    subtitle: "Quản lý dự án nhóm bằng hệ sinh thái công cụ cộng tác.",
+    subtitle: "Quản lý chuyên đề Đạo hàm riêng và Hình học vi phân bằng Trello và hệ sinh thái cộng tác.",
     objective:
-      "Trình bày cách dùng công cụ số để lập kế hoạch, phân công, lưu trữ, giao tiếp và theo dõi tiến độ nhóm.",
-    tools: ["ClickUp", "Google Drive", "Google Docs", "Messenger/Discord"],
+      "Trình bày cách dùng Trello, Google Drive, Google Docs và Messenger/Discord để lập kế hoạch, phân công, lưu trữ, giao tiếp và theo dõi tiến độ nhóm.",
+    tools: ["Trello", "Google Drive", "Google Docs", "Messenger/Discord"],
     process: [
-      "Thiết lập không gian quản lý dự án và tài khoản minh chứng.",
-      "Tạo nhiệm vụ, nhãn, mức ưu tiên và phân công thành viên.",
-      "Tổ chức kho tài liệu dùng chung và quyền truy cập.",
-      "Ghi lại minh chứng về tương tác, tiến độ và vai trò cá nhân.",
+      "Thiết lập Trello và Google Drive với tài khoản cá nhân rõ ràng để minh chứng hoạt động.",
+      "Phân rã nhiệm vụ thành subtasks, gắn deadline, assignee, trạng thái và mức ưu tiên.",
+      "Tổ chức kho tài liệu Drive theo thư mục đa cấp, quy chuẩn đặt tên và phân quyền Viewer/Editor/Commenter.",
+      "Ghi lại minh chứng trao đổi qua Discord, Messenger/Zalo, tiến độ Trello và lịch sử phiên bản Google Docs.",
     ],
     reflection:
-      "Công cụ cộng tác chỉ hiệu quả khi đi kèm quy trình rõ ràng. Vai trò trưởng nhóm cần vừa tổ chức tài nguyên, vừa duy trì nhịp trao đổi và chất lượng nội dung.",
-    externalUrl: "https://drive.google.com/file/d/17q0nXCiVKTKeJIsc3g8O-UiE9uR5-f4z/view?usp=drive_link",
+      "Trello giúp minh bạch tiến độ và trách nhiệm từng thành viên, còn Drive/Docs hỗ trợ kiểm soát tài liệu, phiên bản và quyền truy cập. Với vai trò trưởng nhóm, việc chia nhỏ công việc, đặt ưu tiên và duy trì trao đổi thường xuyên là yếu tố quyết định để nhóm hoàn thành đúng hạn.",
+    externalUrl: "https://drive.google.com/file/d/1qDAm_MkF7Bkz7gYfwWOJ0U8eys7APuRo/view?usp=drive_link",
     document: {
       type: "pdf",
       title: "Bài tập 4 - Áp dụng công cụ hợp tác trực tuyến",
